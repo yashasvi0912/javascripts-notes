@@ -1,0 +1,34 @@
+` ~ expression =
+
+ Definition:  An expression is anything that produces a value.
+              Expressions can be used inside statements.
+ example : 
+ 3 + 4           # 7 (this is an expression)
+ x * 2           # if x = 5, then x * 2 = 10
+ "Hello" + "!"   # "Hello!"
+ 
+
+~ Statement=
+
+Definition:  A statement is a complete instruction that performs an action.
+             It does something, but may or may not return a value.
+              A statement can contain expressions.
+example : 
+x = 5           # Assignment statement
+print(x)        # Print statement
+if x > 0:       # if statement
+
+    print("Positive")
+
+| Feature         | Expression      | Statement          
+| --------------- | ---------------- | ------------------- |
+| Purpose         | Produces a value | Performs an action  |
+| Return value    | Yes              | Not always          |
+| Example         | `3 + 5`          | `x = 3 + 5`         |
+| Can be printed? | Yes              | No (not directly)   |
+| Used in         | Statements       | Whole lines of code |
+   
+example of both :
+x = 2 + 3
+2 + 3 → Expression (evaluates to 5)
+x = 2 + 3 → Statement (assigns value to x)
