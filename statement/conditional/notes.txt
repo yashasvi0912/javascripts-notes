@@ -1,0 +1,33 @@
+conditional : 
+A conditional statement is a type of programming statement that executes certain code only if a specific condition is true.
+Think of it as "if this happens, then do that."
+
+General Form: In most programming languages (like C, Java, Python, JavaScript)
+it look like :
+ example =  if condition:
+
+age = 18
+if age >= 18:
+    print("You are an adult.")
+
+explanation: 
+condition → age >= 18
+
+If the condition is true, it runs the print("You are an adult.") statement.
+
+If false, it skips it.
+ 
+
+ type of conditional statement :
+
+  // if statement → Runs code if a condition is true.
+  
+  // if...else → Runs one block if true, another if false.
+  
+  // if...elif...else → Checks multiple conditions.
+
+  // Nested if → An if inside another if.
+  
+  // Switch / match (in some languages) → Runs code based on multiple fixed values.
+
+

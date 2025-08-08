@@ -1,0 +1,21 @@
+there are tow type of type-casting :
+1=Implicit type casting (Auto conversion)
+// JavaScript automatically converts types when needed.
+example: 
+"5" + 2   // "52" → number 2 becomes string
+"5" - 2   // 3   → string "5" becomes number
+2 * "4"   // 8   → string "4" becomes number
+
+2=Explicit Type Casting (Manual Conversion)
+//you tell JavaScript exactly what type to convert to.
+example:
+// number -> string
+// number -> boolean
+
+// string -> number
+// string -> boolean
+
+// boolean -> number 
+// boolean -> string 
+
+
