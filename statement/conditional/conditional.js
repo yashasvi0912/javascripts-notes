@@ -136,3 +136,35 @@ if (Number.isInteger(num)) {
 } else {
     console.log(num + " is not an integer, so it can't be classified as Even or Odd.");
 }
+
+// logical oprators in coditional statements
+let A = 50
+let B = 50
+let C = 50
+let D = 50
+
+if (A == B && C == D) {
+    console.log("ALL VALUE ARE SAME ");
+} else {
+    console.log("ALL VALUES ARE NOT SAME");
+}
+
+if (A > B || C == D) {
+    console.log("ALL VALUE ARE SAME");
+} else {
+    console.log("ALL VALUE ARE NOT SAME");
+}
+
+
+// find out leap year
+ 
+
+let year = 2000; 
+
+if ((year % 4 === 0 && year % 100 !== 0)){
+    console.log("this is a leap year" )
+}else if(year % 400 === 0){
+    console.log("this is a leap year" )
+}else{
+    console.log("this is not a leap year" )
+}
