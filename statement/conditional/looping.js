@@ -87,3 +87,16 @@ for (let value = 1; value <= num1; value++) {
 }
 
 console.log(fact); 
+
+// factorial using function
+
+function factorial(n) {
+    let result = 1;
+    while (n > 0) {
+        result *= n;
+        n--;
+    }
+    return result;
+}
+console.log("Factorial of 5 is: " + factorial(5)); 
+
