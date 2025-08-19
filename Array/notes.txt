@@ -1,0 +1,102 @@
+ What is an Array?
+
+An array is a special variable that can hold multiple values in a single variable.
+Example:
+
+let fruits = ["Apple", "Banana", "Mango"];
+
+// Common Array Methods
+
+1. Adding / Removing Elements
+
+push() → Adds element at the end
+
+fruits.push("Orange"); // ["Apple", "Banana", "Mango", "Orange"]
+
+
+pop() → Removes last element
+
+fruits.pop(); // ["Apple", "Banana", "Mango"]
+
+
+unshift() → Adds element at the beginning
+
+fruits.unshift("Grapes"); // ["Grapes", "Apple", "Banana", "Mango"]
+
+
+shift() → Removes first element
+
+fruits.shift(); // ["Apple", "Banana", "Mango"]
+
+2. Finding Elements
+
+indexOf() → Finds index of element
+
+fruits.indexOf("Banana"); // 1
+
+
+includes() → Checks if element exists
+
+fruits.includes("Mango"); // true
+
+3. Extracting / Changing
+
+slice() → Returns part of array (does not change original)
+
+fruits.slice(1, 3); // ["Banana", "Mango"]
+
+
+splice() → Add/Remove elements (changes original)
+
+fruits.splice(1, 1, "Kiwi"); 
+// removes 1 element at index 1 and adds "Kiwi"
+// ["Apple", "Kiwi", "Mango"]
+
+4. Combining / Joining
+
+concat() → Joins two arrays
+
+let moreFruits = ["Pineapple", "Papaya"];
+let all = fruits.concat(moreFruits);
+// ["Apple", "Banana", "Mango", "Pineapple", "Papaya"]
+
+
+join() → Converts array to string
+
+fruits.join(" - "); // "Apple - Banana - Mango"
+
+5. Iteration
+
+forEach() → Loops through elements
+
+fruits.forEach(f => console.log(f));
+
+
+map() → Creates new array with modified values
+
+let upper = fruits.map(f => f.toUpperCase());
+// ["APPLE", "BANANA", "MANGO"]
+
+
+filter() → Returns elements that match condition
+
+let longNames = fruits.filter(f => f.length > 5);
+// ["Banana", "Mango"]
+
+
+reduce() → Reduces array to single value
+
+let numbers = [10, 20, 30];
+let sum = numbers.reduce((a, b) => a + b, 0);
+// 60
+
+6. Sorting
+
+sort() → Sorts alphabetically (or by compare function)
+
+fruits.sort(); // ["Apple", "Banana", "Mango"]
+
+
+reverse() → Reverses array order
+
+fruits.reverse(); // ["Mango", "Banana", "Apple"]
