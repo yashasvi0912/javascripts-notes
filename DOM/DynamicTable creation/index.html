@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dynamic Table</title>
+  <style>
+    table, th, td {
+      border: 2px solid black;
+      border-collapse: collapse;
+      padding: 8px;
+      text-align: center;
+    }
+    button {
+      margin-top: 10px;
+      padding: 5px 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2> Dynamic Table Example</h2>
+
+  <table id="myTable">
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+    </tr>
+  </table>
+
+  <br>
+  <button onclick="addRow()">Add Row</button>
+<script src="./script.js"></script>
+</body>
+</html>
